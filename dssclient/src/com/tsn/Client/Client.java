@@ -107,7 +107,7 @@ public class Client {
         	Marshaller mSign = jcSign.createMarshaller();
 	        mSign.setProperty(Marshaller.JAXB_FORMATTED_OUTPUT, true);
         	mSign.marshal(sr, System.out);
-        	System.out.println();
+        	// System.out.println();
         	
         	// Marshal Verify Request Type
         	
